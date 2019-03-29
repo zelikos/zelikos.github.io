@@ -1,13 +1,14 @@
 :root {
-  --default-bg: #fafafa;
-  --header-bg: #273445;
-  --accent: #002e99;
+  --default-font: #fafafa;
+  --default-bg: #273445;
+  --accent: ;
   --accent-bg: #485a6c;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
+  color: var(--default-font);
   background-color: var(--default-bg);
   margin: 0;
   padding: 0;
@@ -16,4 +17,18 @@ body {
 
 h1 {
   font-size: 2em;
+}
+
+.navbar {
+  display: flex;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  background-color: var(--default-bg);
+}
+
+.navlink {
+  display: block;
+  text-decoration: none;
+  color: var(--default-font);
 }
