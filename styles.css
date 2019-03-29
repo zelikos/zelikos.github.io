@@ -31,4 +31,9 @@ h1 {
   display: block;
   text-decoration: none;
   color: var(--default-font);
+  padding: 1em;
+}
+
+#home {
+  padding-top: 1.5em;
 }
