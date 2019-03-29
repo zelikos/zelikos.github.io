@@ -1,3 +1,14 @@
+:root {
+  --default-bg: #fafafa;
+  --header-bg: #273445;
+  --accent: #002e99;
+  --accent-bg: #485a6c;
+}
+
 body {
-  font-family: "Open Sans", sans;
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  background-color: var(--default-bg);
+  margin: 0;
+  padding: 0;
 }
