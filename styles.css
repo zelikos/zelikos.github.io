@@ -42,6 +42,10 @@ h1 {
   background-color: var(--default-bg);
 }
 
+#main {
+  padding-top: 4em;
+}
+
 #landing {
   display: flex;
   flex-direction: column;
