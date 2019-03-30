@@ -1,8 +1,7 @@
 :root {
   --default-font: #fafafa;
   --default-bg: #273445;
-  --accent: ;
-  --accent-bg: #485a6c;
+  --accent-bg: #0e141f;
 }
 
 body {
@@ -24,7 +23,7 @@ h1 {
   top: 0;
   position: fixed;
   width: 100vw;
-  background-color: var(--default-bg);
+  background-color: var(--accent-bg);
 }
 
 .navlink {
@@ -34,6 +33,22 @@ h1 {
   padding: 1em;
 }
 
-#home {
-  padding-top: 1.5em;
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#about-me {
+  display: flex;
+  justify-content: center;
+}
+
+#about-me p {
+  padding: 0.5em 2em;
 }
