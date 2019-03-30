@@ -72,7 +72,11 @@ a {
   display: block;
 }
 
-#about {
+.single-page {
+  padding-top: 4em;
+}
+
+main {
   display: block;
   width: 70vw;
   margin: auto;
