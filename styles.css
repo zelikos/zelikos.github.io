@@ -42,12 +42,12 @@ h1 {
   background-color: var(--default-bg);
 }
 
-#main {
+#landing {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   margin: auto;
   box-sizing: border-box;
