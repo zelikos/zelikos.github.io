@@ -67,3 +67,14 @@ h1 {
   font-weight: bold;
   display: block;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  height: 3em;
+  width: 100%;
+  margin: auto;
+}
