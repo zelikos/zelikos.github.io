@@ -1,7 +1,8 @@
 :root {
   --default-font: #fafafa;
   --default-bg: #273445;
-  --accent-bg: #0e141f;
+  --header-bg: #0e141f;
+  --header-accent: #555761;
 }
 
 body {
@@ -23,7 +24,7 @@ h1 {
   top: 0;
   position: fixed;
   width: 100vw;
-  background-color: var(--accent-bg);
+  background-color: var(--header-bg);
 }
 
 .navlink {
@@ -31,6 +32,14 @@ h1 {
   text-decoration: none;
   color: var(--default-font);
   padding: 1em;
+}
+
+.navlink:hover {
+  background-color: var(--header-accent);
+}
+
+.active {
+  background-color: var(--default-bg);
 }
 
 #main {
@@ -44,11 +53,13 @@ h1 {
   box-sizing: border-box;
 }
 
-#about-me {
+#summary {
   display: flex;
   justify-content: center;
 }
 
-#about-me p {
+#summary p {
   padding: 0.5em 2em;
+  font-weight: bold;
+  display: block;
 }
