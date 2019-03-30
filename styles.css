@@ -19,6 +19,10 @@ h1 {
   font-size: 2em;
 }
 
+a {
+  color: #8cd5ff;
+}
+
 .navbar {
   display: flex;
   top: 0;
