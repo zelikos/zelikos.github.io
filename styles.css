@@ -7,7 +7,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 100%;
+  font-size: 150%;
   color: var(--default-font);
   background-color: var(--default-bg);
   margin: 0;
@@ -19,6 +19,7 @@ h1 {
   font-size: 2em;
   text-align: center;
 }
+
 
 a {
   color: #8cd5ff;
