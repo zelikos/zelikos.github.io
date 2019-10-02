@@ -1,9 +1,23 @@
 :root {
-  --default-font: #fafafa;
-  --default-bg: #273445;
+  --default-font: #151515;
+  --dark-font: #fafafa;
+  --default-bg: #E6E6E6;
+  --dark-bg: #0B243B;
+  --default-link: #0489B1;
+  --dark-link: #8cd5ff;
   --header-bg: #0e141f;
   --header-accent: #555761;
 }
+
+/*
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--dark-font);
+    background-color: var(--dark-bg);
+  }
+
+}
+*/
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -22,7 +36,7 @@ h1 {
 
 
 a {
-  color: #8cd5ff;
+  color: var(--default-link);
 }
 
 .navbar {
@@ -36,15 +50,20 @@ a {
 .navlink {
   display: block;
   text-decoration: none;
-  color: var(--default-font);
-  padding: 1em;
+  color: var(--dark-font);
+  padding: 0.8em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 80%;
 }
 
 .navlink:hover {
+  color: var(--dark-font);
   background-color: var(--header-accent);
 }
 
 .active {
+  color: var(--default-font);
   background-color: var(--default-bg);
 }
 
