@@ -4,7 +4,8 @@
   --default-bg: #E6E6E6;
   --dark-bg: #0B243B;
   --default-link: #0489B1;
-  --dark-link: #8cd5ff;
+  --active-link: #8cd5ff;
+/*  --dark-link: #8cd5ff; */
   --header-bg: #0e141f;
   --header-accent: #555761;
 }
@@ -39,6 +40,10 @@ a {
   color: var(--default-link);
 }
 
+a:active {
+  color: var(--active-link);
+}
+
 .navbar {
   display: flex;
   top: 0;
@@ -51,7 +56,7 @@ a {
   display: block;
   text-decoration: none;
   color: var(--dark-font);
-  padding: 0.8em;
+  padding: 0.9em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   font-size: 80%;
