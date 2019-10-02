@@ -2,23 +2,13 @@
   --default-font: #151515;
   --dark-font: #fafafa;
   --default-bg: #E6E6E6;
-  --dark-bg: #0B243B;
+  --dark-bg: #1a1a1a;
   --default-link: #0489B1;
   --active-link: #8cd5ff;
 /*  --dark-link: #8cd5ff; */
-  --header-bg: #0e141f;
+  --header-bg: #000000;
   --header-accent: #555761;
 }
-
-/*
-@media (prefers-color-scheme: dark) {
-  body {
-    color: var(--dark-font);
-    background-color: var(--dark-bg);
-  }
-
-}
-*/
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -111,4 +101,24 @@ footer {
   width: 100%;
   padding-top: 4em;
   margin: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--dark-font);
+    background-color: var(--dark-bg);
+  }
+
+  .active {
+    color: var(--dark-font);
+    background-color: var(--dark-bg);
+  }
+
+  a {
+    color: var(--active-link);
+  }
+
+  a:active {
+    color: var(--default-link);
+  }
 }
