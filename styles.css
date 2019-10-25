@@ -21,10 +21,13 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 }
 
+h2 {
+  font-size: 2em;
+}
 
 a {
   color: var(--default-link);
@@ -49,7 +52,6 @@ a:active {
   padding: 0.9em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  font-size: 80%;
 }
 
 .navlink:hover {
