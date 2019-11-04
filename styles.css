@@ -12,7 +12,7 @@
 
 body {
   font-family: "Noto Sans", sans-serif;
-  font-size: 140%;
+  font-size: 100%;
   color: var(--default-font);
   background-color: var(--default-bg);
   margin: 0;
@@ -21,10 +21,17 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 }
 
+h2, h3 {
+  font-size: 2em;
+}
+
+p, li, .navlink {
+  font-size: 1.5em;
+}
 
 a {
   color: var(--default-link);
@@ -49,7 +56,6 @@ a:active {
   padding: 0.9em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  font-size: 80%;
 }
 
 .navlink:hover {
@@ -85,7 +91,7 @@ a:active {
 }
 
 .single-page {
-  padding-top: 4em;
+  padding-top: 5em;
 }
 
 main {
