@@ -21,16 +21,11 @@ body {
 }
 
 h1 {
-  font-size: 3em;
-  text-align: center;
-}
-
-h2, h3 {
   font-size: 2em;
 }
 
-p, li, .navlink {
-  font-size: 1.5em;
+p {
+  font-size: 1em;
 }
 
 a {
@@ -41,72 +36,14 @@ a:active {
   color: var(--active-link);
 }
 
-.navbar {
-  display: flex;
-  top: 0;
-  position: fixed;
-  width: 100vw;
-  background-color: var(--header-bg);
-}
-
-.navlink {
-  display: block;
-  text-decoration: none;
-  color: var(--dark-font);
-  padding: 0.9em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-}
-
-.navlink:hover {
-  color: var(--dark-font);
-  background-color: var(--header-accent);
-}
-
-.active {
-  color: var(--default-font);
-  background-color: var(--default-bg);
-}
-
-#landing {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  margin: auto;
-  box-sizing: border-box;
-}
-
-#summary {
-  display: flex;
-  justify-content: center;
-}
-
-#summary p {
-  padding: 0.5em 2em;
-  font-weight: bold;
-  display: block;
-}
-
-.single-page {
-  padding-top: 5em;
-}
-
 main {
   display: block;
   width: 70vw;
   margin: auto;
-  text-align: left;
 }
 
-footer {
-  display: block;
-  height: 3em;
-  width: 100%;
-  padding-top: 4em;
-  margin: auto;
+#coffee {
+  margin: 2em;
 }
 
 @media (prefers-color-scheme: dark) {
