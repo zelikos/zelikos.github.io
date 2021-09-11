@@ -20,8 +20,8 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-size: 4em;
+header {
+  font-size: 2em;
 }
 
 p {
@@ -36,13 +36,13 @@ a:active {
   color: var(--active-link);
 }
 
-main {
+article {
   display: block;
   width: 70vw;
   margin: auto;
 }
 
-#coffee {
+footer {
   margin: 2em;
 }
 
