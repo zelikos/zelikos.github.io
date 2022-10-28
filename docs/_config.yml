@@ -19,18 +19,101 @@
 # in the templates via {{ site.myvariable }}.
 
 title: zelikos
+name: "Patrick Csikos"
 email: zelikos@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
   Personal site for social media links and misc development stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
+domain: "zelikos.dev"
 url: "https://zelikos.dev" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: akzel94
-github_username:  zelikos
+# twitter_username: akzel94
+# github_username:  zelikos
+
+minimal_mistakes_skin: "contrast"
+minimal_mistakes_skin_dark: "dark"
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+
+collections:
+  apps:
+    output: true
+    permalink: /:collection/:name
+  posts:
+    output: true
+    permalink: /blog/:categories/:name
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+  # _apps
+  - scope:
+      path: ""
+      type: apps
+    values:
+      layout: single
+
+# Social media information, etc
+author:
+  name: "Akzel"
+  avatar: "/assets/images/avatar.png"
+  bio: "Need more coffee."
+  location: "Ohio, USA"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/Akzel94"
+    - label: "Mastodon"
+      icon: "fab fa-mastodon"
+      url: "https://mastodon.online/@Akzel"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/zelikos"
+    - label: "GitLab"
+      icon: "fab fa-gitlab"
+      url: "https://gitlab.com/zelikos"
+
+twitter:
+  username: "akzel94"
+
+social:
+  links:
+    - "https://twitter.com/akzel94"
+    - "https://mastodon.online/@Akzel"
+
+footer:
+  links:
+    - label: "@Akzel94"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/Akzel94"
+    - label: "@Akzel"
+      icon: "fab fa-mastodon"
+      url: "https://mastodon.online/@Akzel"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/zelikos"
+    - label: "GitLab"
+      icon: "fab fa-gitlab"
+      url: "https://gitlab.com/zelikos"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
