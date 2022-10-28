@@ -1,6 +1,5 @@
 main:
   - title: "Apps"
-    #url: /apps
-    description: "Coming soon"
+    url: /apps/
   - title: "Blog"
-    description: "Coming soon"
+    url: /blog/
