@@ -1,0 +1,5 @@
+main:
+  - title: "Apps"
+    url: /apps/
+  - title: "Blog"
+    url: /blog/
