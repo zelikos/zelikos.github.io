@@ -33,6 +33,9 @@ minimal_mistakes_skin: "contrast"
 minimal_mistakes_skin_dark: "dark"
 
 # Build settings
+include:
+  - _pages
+
 #theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
