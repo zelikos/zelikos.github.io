@@ -1,5 +1,6 @@
 ---
 title:  ""
+excerpt:
 categories:
   - # updates, guides, posts
 tags:
