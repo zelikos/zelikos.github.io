@@ -1,6 +1,6 @@
 ---
 title:  ""
-excerpt:
+excerpt_separator: <!--more-->
 categories:
   - # updates, guides, posts
 tags:
