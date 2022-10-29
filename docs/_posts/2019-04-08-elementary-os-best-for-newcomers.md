@@ -16,11 +16,11 @@ There is no one right answer for *everybody*. Every individual has their own nee
 
 <!--more-->
 
-# Refreshingly Restrictive
+## Refreshingly Restrictive
 
 As one [Jason Evangelho put it](https://www.forbes.com/sites/jasonevangelho/2019/01/25/elementary-os-how-i-learned-to-stop-tweaking-and-love-the-workflow/#53d3b86b3bae), elementary OS is **refreshingly restrictive**. In a world known for allowing people to tweak and customize their systems, elementary OS *doesn't* embrace that aspect of Linux. That's not to say that it's *impossible*; it is still *your* computer, and you can do with it what you like, but elementary OS is designed to provide an excellent out-of-the-box experience, and it definitely succeeds.
 
-# An Intuitive Interface
+## An Intuitive Interface
 
 Often, people argue in favor of Linux distros like Linux Mint for newcomers, as the interface is familiar to those coming from Windows. I understand where they're coming from, but I believe that first impressions are very important: if the interface is familiar, they may think that the overall experience will be exactly what they're used to on Windows. If the interface is unique, they should understand that the experience will be different--because it *is*.  Linux desktop environments shouldn't try to emulate Windows; they should provide an excellent user experience on their own. elementary OS does this *very* well.
 
@@ -48,7 +48,7 @@ Finally, you only need to click once to open files and folders. I'll admit that 
 
 On Windows, however, if you launch an app from the taskbar or the Start menu, you click on it *once*, but you have to *double*-click desktop icons, and you have to *double*-click on files and folders to open them. That's not very intuitive.
 
-# AppCenter
+## AppCenter
 
 Unlike on Windows, you won't get your software by going off and downloading it from websites; instead, you can find most of what you'll need through AppCenter.
 
@@ -58,6 +58,6 @@ Similar to the Play Store on Android phones, or the App Store on iOS, AppCenter 
 
 AppCenter is great for developers, too; the pay-what-you-want model provides a method of earning money from their hard work, and the elementary team has put a lot of work into providing a system for developers to [get started making apps](https://developer.elementary.io) as easily as possible.
 
-# Conclusion
+## Conclusion
 
 I'm a firm believer that elementary OS is one of the very best operating systems available. With a cohesive design, a very intuitive interface, and a great app ecosystem with AppCenter, it's very hard to beat. If you're a newcomer to Linux, I strongly encourage you to give it a try.

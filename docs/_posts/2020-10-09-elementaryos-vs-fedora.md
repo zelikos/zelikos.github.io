@@ -10,11 +10,9 @@ tags:
   - gnome
 toc: true
 ---
-# Intro
-
 After a long, long period of distro-hopping, I had settled on [elementary OS](https://elementary.io) as my distro of choice. That installation lasted over 18 months, but a little over two weeks ago I made the switch to [Fedora](https://start.fedoraproject.org/). I wasn't necessarily unhappy with elementary OS, so...what prompted the switch?
 
-# Long Background Info
+## Long Background Info
 
 Prior to settling on elementary, my favorite desktop environment was GNOME; I love the Activities Overview, and seeing the GNOME desktop in action played a big part in my switch to Linux to begin with. However, the experience was plagued by some performance issues. These were most noticeable in the form of stuttery animations in the Overview; it didn't break usability or anything, but it did make the desktop feel slower than it may have actually been.
 
@@ -26,7 +24,7 @@ This was a couple years into my distro-hopping, and by that point I had tried ou
 
 Or so I thought.
 
-# Why I Switched to Fedora
+## Why I Switched to Fedora
 
 Fast-forward to about a month ago. It was sometime after Fedora announced that 33 would have Btrfs by default. I'd heard of it before, I knew it was the default filesystem on openSUSE, but I had never really researched it much. Since Fedora made that announcement, I decided to look into Btrfs more, and it sounded interesting. So, why did I opt to switch to Fedora after spending so much time with elementary?:
 
@@ -38,7 +36,7 @@ Now, part of the reason I hadn't done so sooner was because my NAS needed a hard
 
 I expected that it would be a short-term change; my main reasonings were to test out a mostly-vanilla GNOME, as well as trying a more cutting edge OS with Wayland support and the upcoming PipeWire. At the time of writing this, though...I'm *very* torn between the two.
 
-# GNOME vs Pantheon
+## Desktop Environments: GNOME vs Pantheon
 
 I'll start by discussing GNOME and Pantheon, the flagship desktop environments of Fedora and elementary OS respectively.
 
@@ -75,7 +73,7 @@ In my case, I like keeping my use of extensions to a minimum as I'm fairly comfo
 
 Choosing between the two desktops is *very* hard for me, but Pantheon just barely edges out GNOME.
 
-# elementary (and Ubuntu) vs Fedora -- Technical differences
+## Technical differences
 
 That was a lot to say on the desktop environments, and honestly this section is probably gonna be shorter. As it's based on Ubuntu, many of my comparisons between elementary OS and Fedora will largely be a matter of Ubuntu vs Fedora; the biggest differences that elementary OS have with Ubuntu are the Pantheon desktop, and the AppCenter ecosystem. So, that being said, let's start with availability of apps.
 
@@ -91,13 +89,13 @@ That said, I prefer Pantheon to GNOME, and while I do appreciate the work being 
 
 Finally, I want to talk APT vs DNF. APT is the package manager used by Ubuntu, whereas DNF is used in Fedora. APT feels faster to me, but DNF's output is a *lot* easier to read, even while providing more information; doing a `dnf search <package>` lists the results by different criteria, whereas `apt search <package>` is one long alphabetical list (the `--names-only` flag for apt helps this somewhat).
 
-# Ideals
+## Ideals
 
 Perhaps the biggest reason I favor elementary OS is because I believe that they truly want to push desktop Linux forward, a noteworthy example being the [AppCenter for Everyone](https://www.indiegogo.com/projects/appcenter-for-everyone#/) initiative. They also provide great documentation for developers to [get started writing apps](https://developer.elementary.io/). It doesn't quite cover everything, but it's a great starting point.
 
 I also want to clarify that the above isn't meant to be a knock *against* Fedora or GNOME, I'm just much more familiar with the elementary side of things, having gone through their documentation myself and writing a [simple app](https://appcenter.elementary.io/com.github.zelikos.rannum/) of my own.
 
-# Going Forward
+## Going Forward
 
 Going forward, I'll stick with Fedora at least until Fedora 33 comes around, as I want to see how the upgrade process goes. My plan beyond that is to wait until elementary OS 6 is released before switching back, but I might do so sooner. Not sure yet. We'll see if Fedora 33 with GNOME 3.38 blows my mind or not.
 

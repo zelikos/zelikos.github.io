@@ -19,7 +19,7 @@ Three years later, the one that finally put a stop to my distro-hopping was [ele
 
 So, _why_ did I settle on elementary OS, above all other Linux distributions? <!--more-->
 
-# The Pantheon Desktop
+## The Pantheon Desktop
 
 ![An image of my elementary OS desktop](https://66.media.tumblr.com/4ee13078b24aef726640bcb76fb5b09e/tumblr_pm9jb48kWr1rohz0jo1_1280.png)
 
@@ -41,7 +41,7 @@ Accessible with either Super+Down or Super+S, the Multitasking View let's you se
 
 Overall, Pantheon may be simple at first glance, but it certainly doesn't lack functionality.
 
-# AppCenter
+## AppCenter
 
 ![The elementary OS AppCenter](https://66.media.tumblr.com/6e3bc09dd72082e2c66c81529e528155/tumblr_pmdk6pBYOf1rohz0jo2_1280.png)
 
@@ -57,7 +57,7 @@ Some other favorites include: [AppEditor](https://appcenter.elementary.io/com.gi
 
 There's also [Ephemeral](https://appcenter.elementary.io/com.github.cassidyjames.ephemeral), a privacy-focused web browser that protects against tracking and automatically deletes your browsing history when closed. I've made a video going over Ephemeral in a bit more detail, which you can find [here](https://youtu.be/DkPvrUM5JcM).
 
-# Conclusion
+## Conclusion
 
 Since all parts of elementary OS are free and open source, you _could_ use parts of it on other Linux distros. Pantheon is fairly well-supported on Fedora, and many AppCenter applications are available on Flathub---you can also just build them from the source code.
 

@@ -14,7 +14,7 @@ toc: true
 
 *Note: This guide currently only covers setup and installation for users with AMD graphics cards, as I lack Nvidia hardware to test with at this time.*
 
-# Introduction
+## Introduction
 
 Ah, video editing on Linux...
 
@@ -28,17 +28,17 @@ There is also a [video version of this guide](https://youtu.be/nuXsElMbtmI) avai
 
 <!--more-->
 
-# Why elementary OS?
+## Why elementary OS?
 
 You might be wondering why this guide is for elementary OS *and* Ubuntu, rather than just Ubuntu proper. After all, Ubuntu has a much larger user base, right? While that is true, I personally believe that [elementary OS is the best option for newcomers to Linux](/blog/posts/2019-04-08-elementary-os-best-for-newcomers). So, I'll be focusing this guide primarily on elementary OS, but most, if not all of the steps will work fine on Ubuntu as well.
 
-# DaVinci Resolve and MP4s...
+## Using DaVinci Resolve with MP4s
 
 Before we get into it, though, there *is* a rather big caveat that almost leads me to recommend *against* Resolve if you're just an average user: the free version of DaVinci Resolve on Linux doesn't support H.264, which is the codec that many video recording software uses to record MP4 videos (e.g. if you use OBS Studio, it uses the H.264 codec). DaVinci Resolve *Studio* doesn't have this limitation, but... That sets you back about $300, and I'm focusing on the free version for this guide.
 
 So, if you still want to use Resolve, you do have some options here.
 
-## Convert existing footage
+### Convert existing footage
 
 First, if you want to use footage you already have recorded, you can convert it to a format that Resolve *does* accept. For this purpose, I recommend installing a program called `WinFF`, a graphical front-end to ffmpeg.
 
@@ -58,7 +58,7 @@ The `Preset Name`, `Preset Label`, and what `Category` you put it under are up t
 
 `-c:a pcm_s24le` sets the audio format to PCM, a type of uncompressed audio, with a [bit depth](https://en.wikipedia.org/wiki/Audio_bit_depth) of 24.
 
-## Set up OBS for DaVinci Resolve-compatible recordings
+### Set up OBS for DaVinci Resolve-compatible recordings
 
 I use [OBS Studio](https://obsproject.com/) for almost all of my video recording, so here's how to set up OBS to output video that you can directly use in Resolve, no conversion required (with a *big* thanks to [Silent Robot](https://www.youtube.com/channel/UC9G1Ds0NlZngSvhIaJDgLWQ) for these settings).
 
@@ -80,7 +80,7 @@ So, first, make sure the `Container Format` is set to `mov`.
 
 The other settings shown are largely dependent on your particular setup.
 
-# Prerequisites
+## Prerequisites
 
 So, some prerequisites. First, of course, you'll need to [download DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) (the download link is near the bottom of the page). I also highly recommend downloading [MakeResolveDeb](http://www.danieltufvesson.com/makeresolvedeb), a script by Daniel Tufvesson that converts the Resolve installer into a DEB package, to allow for proper installation on Ubuntu- and Debian-based systems. You'll need to make sure that the MakeResolveDeb version matches the version of DaVinci Resolve you downloaded (i.e. MakeResolveDeb 15.3-1 and 15.3-2 would work with DaVinci Resolve 15.3, but may not with 15.3.1). Keep in mind that if there's a brand new release of DaVinci Resolve, you may need to wait a day or so for MakeResolveDeb to be updated.
 
@@ -88,7 +88,7 @@ Now, for what you need to be able to *run* Resolve. DaVinci Resolve requires Ope
 
 For OpenCL, there are two options: the proprietary AMDGPU-pro drivers, or ROCm, AMD's open source compute stack. We'll be going with ROCm, as AMDGPU-pro has been known to cause problems.
 
-# Installing ROCm
+### Install ROCm
 
 The information presented here is paraphrased from, and references the [ROCm GitHub page](https://github.com/RadeonOpenCompute/ROCm).
 
@@ -109,7 +109,7 @@ sudo usermod -a -G video $LOGNAME
 
 The next step depends on what kernel you're running. You can check with `uname -r`.
 
-## Kernel 4.15
+#### Kernel 4.15
 
 If you're on version 4.15,
 
@@ -128,7 +128,7 @@ You can do so with the following command, as [outlined here](https://wiki.ubuntu
 sudo apt install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04
 ```
 
-## Kernel 4.18 or later
+#### Kernel 4.18 or later
 
 If you're on version 4.18 or later,
 
@@ -145,13 +145,13 @@ echo 'SUBSYSTEM=="kfd", KERNEL=="kfd", TAG+="uaccess", GROUP="video"' | sudo tee
 
 And finally, reboot your computer.
 
-## Test ROCm setup
+### Test ROCm installation
 
 After installation, to make sure ROCm was installed properly, run `/opt/rocm/bin/rocminfo`. The output should resemble this:
 
 ![rocminfo terminal output](https://spee.ch/@akzel94:0/Screenshot-from-2019-04-05-22-30-45.png?outpoint=6453418a6ed710707165e3639ba0b81d6e8b96172a6b240c1479c4fb2a1bb896:0)
 
-# Installing DaVinci Resolve
+## Install DaVinci Resolve
 
 Go to where you downloaded DaVinci Resolve, and extract it (on elementary, right-click and `Extract Here`), then drag the MakeResolveDeb tar.gz into that folder, and extract it within.
 
@@ -167,6 +167,6 @@ Open a terminal and navigate to that folder. You'll need to `sudo apt install xo
 
 After it runs, you can install the newly-created .deb with [Eddy](https://appcenter.elementary.io/com.github.donadigo.eddy/) on elementary; with Ubuntu Software; or with `sudo apt install ./davinci-resolve_version-number_amd64.deb`
 
-# Conclusion
+## Conclusion
 
 If all went well, you should now be able to run DaVinci Resolve. If you ran into any problems along the way, or if you have suggestions for how this guide could be improved, please feel free to reach out to me on any of my socials.
