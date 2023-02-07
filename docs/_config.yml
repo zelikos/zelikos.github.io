@@ -29,7 +29,7 @@ url: "https://zelikos.dev" # the base hostname & protocol for your site, e.g. ht
 # twitter_username: akzel94
 # github_username:  zelikos
 
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "dirt"
 minimal_mistakes_skin_dark: "dark"
 
 # Build settings
