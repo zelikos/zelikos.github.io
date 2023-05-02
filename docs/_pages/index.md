@@ -7,7 +7,7 @@ permalink: /
 ---
 
 
-Often <a rel="me" href="https://mastodon.online/@Akzel">toots</a> about anime and games, and Linuxy things.
+Often <a rel="me" href="https://mastodon.online/@Akzel">toots</a> about anime, games, and Linuxy things.
 
 Occasionally [writes](https://gitlab.com/zelikos) [code](https://github.com/zelikos).
 
