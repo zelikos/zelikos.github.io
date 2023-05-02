@@ -20,7 +20,7 @@
 
 title: zelikos
 name: "Patrick Csikos"
-email: zelikos@pm.me
+email: contact@zelikos.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Personal site for social media links and misc development stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
