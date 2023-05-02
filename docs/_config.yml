@@ -20,7 +20,7 @@
 
 title: zelikos
 name: "Patrick Csikos"
-email: zelikos@pm.me
+email: contact@zelikos.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Personal site for social media links and misc development stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -84,41 +84,34 @@ author:
   bio: "Need more coffee."
   location: "Ohio, USA"
   links:
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/Akzel94"
     - label: "Mastodon"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/zelikos"
     - label: "GitLab"
       icon: "fab fa-gitlab"
       url: "https://gitlab.com/zelikos"
-
-twitter:
-  username: "akzel94"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/zelikos"
 
 social:
   links:
-    - "https://twitter.com/akzel94"
     - "https://mastodon.online/@Akzel"
 
 footer:
   links:
-    - label: "@Akzel94"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/Akzel94"
+    - label: "Source Code"
+      icon: "fas fa-code"
+      url: "https://github.com/zelikos/zelikos.github.io"
     - label: "@Akzel"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/zelikos"
     - label: "GitLab"
       icon: "fab fa-gitlab"
       url: "https://gitlab.com/zelikos"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/zelikos"
 
 
 # Exclude from processing.
