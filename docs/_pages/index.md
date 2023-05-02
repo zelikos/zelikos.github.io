@@ -7,10 +7,10 @@ permalink: /
 ---
 
 
-[Tweets](https://twitter.com/Akzel94) about anime and games. Sometimes <a rel="me" href="https://mastodon.online/@Akzel">toots</a> about Linuxy things.
+Often <a rel="me" href="https://mastodon.online/@Akzel">toots</a> about anime and games, and Linuxy things.
 
 Occasionally [writes](https://gitlab.com/zelikos) [code](https://github.com/zelikos).
 
-[Videos](https://youtube.com/pmk94) and [livestreams](https://twitch.tv/akzel94) occur infrequently.
+Sometimes produces [videos](https://youtube.com/pmk94) and [livestreams](https://twitch.tv/akzel94).
 
-Never enough [coffee](https://ko-fi.com/akzel94).
+Never has enough [coffee](https://ko-fi.com/akzel94).
