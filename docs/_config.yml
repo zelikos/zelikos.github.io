@@ -87,12 +87,12 @@ author:
     - label: "Mastodon"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/zelikos"
     - label: "GitLab"
       icon: "fab fa-gitlab"
       url: "https://gitlab.com/zelikos"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/zelikos"
 
 social:
   links:
@@ -106,12 +106,12 @@ footer:
     - label: "@Akzel"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/zelikos"
     - label: "GitLab"
       icon: "fab fa-gitlab"
       url: "https://gitlab.com/zelikos"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/zelikos"
 
 
 # Exclude from processing.
