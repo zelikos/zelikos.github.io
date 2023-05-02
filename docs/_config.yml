@@ -84,9 +84,6 @@ author:
   bio: "Need more coffee."
   location: "Ohio, USA"
   links:
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/Akzel94"
     - label: "Mastodon"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
@@ -97,19 +94,12 @@ author:
       icon: "fab fa-gitlab"
       url: "https://gitlab.com/zelikos"
 
-twitter:
-  username: "akzel94"
-
 social:
   links:
-    - "https://twitter.com/akzel94"
     - "https://mastodon.online/@Akzel"
 
 footer:
   links:
-    - label: "@Akzel94"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/Akzel94"
     - label: "@Akzel"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
