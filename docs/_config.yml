@@ -100,9 +100,6 @@ social:
 
 footer:
   links:
-    - label: "Source Code"
-      icon: "fas fa-code"
-      url: "https://github.com/zelikos/zelikos.github.io"
     - label: "@Akzel"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
@@ -112,6 +109,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/zelikos"
+    - label: "Source Code"
+      icon: "fas fa-code"
+      url: "https://github.com/zelikos/zelikos.github.io"
 
 
 # Exclude from processing.
