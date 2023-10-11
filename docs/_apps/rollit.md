@@ -18,6 +18,8 @@ The latest stable release of Roll-It is available via Flathub.
 
 <a href='https://flathub.org/apps/details/dev.zelikos.rollit'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
+For users on elementary OS, **the AppCenter version is no longer maintained or receiving updates**. Install Roll-It from Flathub to get the latest updates.
+
 Any version distributed elsewhere is not provided nor supported by me.
 
 ## Source
