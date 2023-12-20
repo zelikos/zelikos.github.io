@@ -10,7 +10,7 @@ header:
 
 Roll a six-sided die by default, or roll a custom die of up to one-hundred sides.
 
-![Screenshot](https://gitlab.com/zelikos/rollit/-/raw/main/data/screenshots/01_rollit_startup_light.png)
+![Screenshot](https://gitlab.com/zelikos/rollit/-/raw/main/data/screenshots/01_rollit_wide_1.png)
 
 ## Installation
 
