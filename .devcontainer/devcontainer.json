@@ -1,0 +1,13 @@
+{
+	"workspaceMount": "",
+    "runArgs": [
+        "--userns=keep-id:uid=1000,gid=1000",
+        "--volume=${localWorkspaceFolder}:/workspaces/${localWorkspaceFolderBasename}:Z"
+       ],
+       "containerUser": "vscode",
+       "remoteUser": "vscode",
+       "containerEnv": {
+         "HOME": "/home/vscode"
+       },
+    "image": "mcr.microsoft.com/devcontainers/jekyll:buster"
+}
