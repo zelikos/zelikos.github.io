@@ -16,7 +16,7 @@ Roll a six-sided die by default, or roll a custom die of up to one-hundred sides
 
 The latest stable release of Chance is available via Flathub.
 
-<a href='https://flathub.org/apps/details/dev.zelikos.rollit'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
+<a href='https://flathub.org/apps/details/dev.zelikos.rollit'><img width='240' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/></a>
 
 For users on elementary OS, **the AppCenter version (Roll-It) is no longer maintained or receiving updates**. Install Chance from Flathub to get the latest updates.
 
