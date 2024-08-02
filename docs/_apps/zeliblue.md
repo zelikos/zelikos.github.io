@@ -1,8 +1,6 @@
 ---
 title: Zeliblue
 excerpt: Customized dervivative of Fedora Silverblue.
-header:
-  teaser: /assets/images/avatar.png
 ---
 ![Zeliblue Desktop](https://raw.githubusercontent.com/zelikos/zeliblue/main/repo_content/desktop1.webp?raw=true)
 
