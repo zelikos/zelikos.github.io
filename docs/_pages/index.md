@@ -9,7 +9,7 @@ permalink: /
 
 Often <a rel="me" href="https://mastodon.online/@Akzel">toots</a> about anime, games, and Linuxy things.
 
-Occasionally [writes](https://gitlab.com/zelikos) [code](https://github.com/zelikos).
+Occasionally [writes](https://codeberg.org/zelikos) [code](https://github.com/zelikos).
 
 Sometimes produces [videos](https://youtube.com/pmk94) and [livestreams](https://twitch.tv/akzel94).
 
