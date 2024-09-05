@@ -2,15 +2,15 @@
 title: Chance
 excerpt: Roll a six-sided die by default, or roll a custom die of up to one-hundred sides.
 header:
-  teaser: https://gitlab.com/zelikos/rollit/-/raw/main/data/icons/hicolor/scalable/apps/dev.zelikos.rollit.svg
+  teaser: https://raw.githubusercontent.com/zelikos/rannum/main/data/icons/hicolor/scalable/apps/dev.zelikos.rollit.svg
 ---
-![Icon](https://gitlab.com/zelikos/rollit/-/raw/main/data/icons/hicolor/scalable/apps/dev.zelikos.rollit.svg)
+![Icon](https://raw.githubusercontent.com/zelikos/rannum/main/data/icons/hicolor/scalable/apps/dev.zelikos.rollit.svg)
 
 ## Roll the dice
 
 Roll a six-sided die by default, or roll a custom die of up to one-hundred sides.
 
-![Screenshot](https://gitlab.com/zelikos/rollit/-/raw/main/data/screenshots/01_rollit_wide_1.png)
+![Screenshot](https://raw.githubusercontent.com/zelikos/rannum/5f2fc4a573f716716b203033efbf5ded1fa5eeac/data/screenshots/01_rollit_wide_1.png)
 
 ## Installation
 
@@ -24,4 +24,4 @@ Any version distributed elsewhere is not provided nor supported by me.
 
 ## Source
 
-Chance is designed and developed as free and open source software. The source code is available [on GitLab](https://gitlab.com/zelikos/rollit).
+Chance is designed and developed as free and open source software. The source code is available [here](https://github.com/zelikos/rannum).
