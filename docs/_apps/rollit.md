@@ -24,4 +24,4 @@ Any version distributed elsewhere is not provided nor supported by me.
 
 ## Source
 
-Chance is designed and developed as free and open source software. The source code is available [on GitLab](https://gitlab.com/zelikos/rollit).
+Chance is designed and developed as free and open source software. The source code is available [here](https://github.com/zelikos/rannum).
