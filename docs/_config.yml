@@ -44,7 +44,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-
 collections:
   apps:
     output: true
@@ -87,9 +86,9 @@ author:
     - label: "Mastodon"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
-    - label: "GitLab"
-      icon: "fab fa-gitlab"
-      url: "https://gitlab.com/zelikos"
+    - label: "Codeberg"
+      icon: "fas fa-code"
+      url: "https://codeberg.org/zelikos"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/zelikos"
@@ -103,17 +102,15 @@ footer:
     - label: "@Akzel"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
-    - label: "GitLab"
-      icon: "fab fa-gitlab"
-      url: "https://gitlab.com/zelikos"
+    - label: "Codeberg"
+      icon: "fas fa-code"
+      url: "https://codeberg.org/zelikos"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/zelikos"
     - label: "Source Code"
       icon: "fas fa-code"
       url: "https://github.com/zelikos/zelikos.github.io"
-
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
