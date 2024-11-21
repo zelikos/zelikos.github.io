@@ -86,6 +86,9 @@ author:
     - label: "Mastodon"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
+    - label: "Bluesky"
+      icon: "fab fa-bluesky"
+      url: "https://bsky.app/profile/akzel.zelikos.dev"
     - label: "Codeberg"
       icon: "fas fa-code"
       url: "https://codeberg.org/zelikos"
@@ -96,12 +99,16 @@ author:
 social:
   links:
     - "https://mastodon.online/@Akzel"
+    - "https://bsky.app/profile/akzel.zelikos.dev"
 
 footer:
   links:
     - label: "@Akzel"
       icon: "fab fa-mastodon"
       url: "https://mastodon.online/@Akzel"
+    - label: "Bluesky"
+      icon: "fab fa-bluesky"
+      url: "https://bsky.app/profile/akzel.zelikos.dev"
     - label: "Codeberg"
       icon: "fas fa-code"
       url: "https://codeberg.org/zelikos"
