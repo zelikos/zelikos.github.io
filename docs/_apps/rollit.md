@@ -18,7 +18,7 @@ The latest stable release of Chance is available via Flathub.
 
 <a href='https://flathub.org/apps/details/dev.zelikos.rollit'><img width='240' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/></a>
 
-For users on elementary OS, **the AppCenter version (Roll-It) is no longer maintained or receiving updates**. Install Chance from Flathub to get the latest updates.
+For users on elementary OS, **the original AppCenter version, Roll-It, is no longer maintained by me**. It has been taken over and is now maintained by [teamcons](https://github.com/elly-code/rollit).
 
 Any version distributed elsewhere is not provided nor supported by me.
 
